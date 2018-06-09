@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>parent</key>
+	<string>at.obdev.LaunchBar.theme.Default</string>
+	<key>defaultTextColor</key>
+	<string>{foreground}</string>
+	<key>defaultTextShadowColor</key>
+	<string>{color3}</string>
+	<key>defaultTextShadowColor@2x</key>
+	<string>clearColor</string>
+	<key>defaultDimmedTextColor</key>
+	<string>{color1}</string>
+	<key>inputAreaAbbreviationTextColor</key>
+	<string>{color2}</string>
+	<key>inputAreaActionMenuAreaBackgroundColor</key>
+	<string>{color3}</string>
+	<key>inputAreaNonKeyWindowTextColorOffsetLevel</key>
+	<real>-0.3</real>
+	<key>inputAreaTextColor</key>
+	<string>@defaultTextColor</string>
+	<key>textInputPlaceholderTextColor</key>
+	<string>{color3}</string>
+	<key>textInputSelectedTextBackgroundColor</key>
+	<string>{color6}</string>
+	<key>inputAreaBackgroundGradient</key>
+	<dict>
+		<key>0.0</key>
+		<string>#{color1}</string>
+		<key>1.0</key>
+		<string>{color1}</string>
+	</dict>
+	<key>itemListGridLineGradient</key>
+	<dict>
+		<key>0.0</key>
+		<string>1 1 1 1</string>
+		<key>0.1</key>
+		<string>1 1 1 1</string>
+		<key>0.9</key>
+		<string>1 1 1 1</string>
+		<key>1.0</key>
+		<string>1 1 1 1</string>
+	</dict>
+	<key>itemListGridLineShadowHeight</key>
+	<integer>0</integer>
+	<key>itemListSelectionHighlightColor</key>
+	<string>@{color5}</string>
+	<key>itemListNavigationArrowImage</key>
+	<string>@itemListNavigationArrowImageH</string>
+	<key>itemListScrollerColor</key>
+	<string>{color1}</string>
+	<key>itemListSeparatorUpperLineColor</key>
+	<string>1 1 1 0.2</string>
+	<key>itemListStagedItemHighlightLevel</key>
+	<real>0.3</real>
+	<key>itemListSubtitleTextColor</key>
+	<string>@defaultTextColor - 0.35</string>
+	<key>windowBackgroundColorIsDark</key>
+	<true/>
+	<key>windowHasInnerShadow</key>
+	<false/>
+	<key>windowBackgroundColor</key>
+	<string>{background}</string>
+	<key>windowBackgroundVibrancy</key>
+	<integer>1</integer>
+	<key>windowVibrantBackgroundColor</key>
+	<string>{background}</string>
+	<key>windowCornerRadius</key>
+	<string>4</string>
+</dict>
+</plist>
